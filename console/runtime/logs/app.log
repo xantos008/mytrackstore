@@ -1,0 +1,638 @@
+2017-11-15 14:22:19 [-][-][-][error][ParseError] ParseError: syntax error, unexpected ')', expecting ']' in C:\xampp\htdocs\newbitrix.local\advanced\console\migrations\m171115_123950_create_pages_table.php:24
+Stack trace:
+#0 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\console\controllers\MigrateController.php(191): yii\console\controllers\BaseMigrateController->includeMigrationFile('m171115_123950_...')
+#1 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(725): yii\console\controllers\MigrateController->createMigration('m171115_123950_...')
+#2 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(200): yii\console\controllers\BaseMigrateController->migrateUp('m171115_123950_...')
+#3 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#4 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#5 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\console\Controller.php(135): yii\base\Controller->runAction('', Array)
+#7 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('', Array)
+#8 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#9 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#10 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#11 C:\xampp\htdocs\newbitrix.local\advanced\yii(27): yii\base\Application->run()
+#12 {main}
+2017-11-15 14:22:14 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Игорь\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'HOME-PC'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'CYGWIN' => 'tty'
+    'ESET_OPTIONS' => '                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               '
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Игорь'
+    'LOCALAPPDATA' => 'C:\\Users\\Игорь\\AppData\\Local'
+    'LOGONSERVER' => '\\\\HOME-PC'
+    'NUMBER_OF_PROCESSORS' => '8'
+    'OneDrive' => 'C:\\Users\\Игорь\\OneDrive'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\OpenSSH\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files\\PuTTY\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\xampp\\php;C:\\composer;C:\\Program Files (x86)\\nodejs\\;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\Program Files (x86)\\Common Files\\Ulead Systems\\MPEG;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\Users\\Игорь\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Игорь\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Игорь\\AppData\\Roaming\\npm'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\D395~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\D395~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'HOME-PC'
+    'USERDOMAIN_ROAMINGPROFILE' => 'HOME-PC'
+    'USERNAME' => 'Игорь'
+    'USERPROFILE' => 'C:\\Users\\Игорь'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'C:\\xampp\\htdocs\\newbitrix.local\\advanced\\'
+    'PHP_SELF' => 'C:\\xampp\\htdocs\\newbitrix.local\\advanced\\yii'
+    'SCRIPT_NAME' => 'C:\\xampp\\htdocs\\newbitrix.local\\advanced\\yii'
+    'SCRIPT_FILENAME' => 'C:\\xampp\\htdocs\\newbitrix.local\\advanced\\yii'
+    'PATH_TRANSLATED' => 'C:\\xampp\\htdocs\\newbitrix.local\\advanced\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1510752134.2223
+    'REQUEST_TIME' => 1510752134
+    'argv' => [
+        0 => 'C:\\xampp\\htdocs\\newbitrix.local\\advanced\\yii'
+        1 => 'migrate'
+    ]
+    'argc' => 2
+]
+2017-11-15 14:24:08 [-][-][-][error][ParseError] ParseError: syntax error, unexpected ')', expecting ']' in C:\xampp\htdocs\newbitrix.local\advanced\console\migrations\m171115_123950_create_pages_table.php:29
+Stack trace:
+#0 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\console\controllers\MigrateController.php(191): yii\console\controllers\BaseMigrateController->includeMigrationFile('m171115_123950_...')
+#1 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(725): yii\console\controllers\MigrateController->createMigration('m171115_123950_...')
+#2 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(200): yii\console\controllers\BaseMigrateController->migrateUp('m171115_123950_...')
+#3 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#4 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#5 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\console\Controller.php(135): yii\base\Controller->runAction('', Array)
+#7 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('', Array)
+#8 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#9 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#10 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#11 C:\xampp\htdocs\newbitrix.local\advanced\yii(27): yii\base\Application->run()
+#12 {main}
+2017-11-15 14:24:03 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Игорь\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'HOME-PC'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'CYGWIN' => 'tty'
+    'ESET_OPTIONS' => '                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               '
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Игорь'
+    'LOCALAPPDATA' => 'C:\\Users\\Игорь\\AppData\\Local'
+    'LOGONSERVER' => '\\\\HOME-PC'
+    'NUMBER_OF_PROCESSORS' => '8'
+    'OneDrive' => 'C:\\Users\\Игорь\\OneDrive'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\OpenSSH\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files\\PuTTY\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\xampp\\php;C:\\composer;C:\\Program Files (x86)\\nodejs\\;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\Program Files (x86)\\Common Files\\Ulead Systems\\MPEG;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\Users\\Игорь\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Игорь\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Игорь\\AppData\\Roaming\\npm'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\D395~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\D395~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'HOME-PC'
+    'USERDOMAIN_ROAMINGPROFILE' => 'HOME-PC'
+    'USERNAME' => 'Игорь'
+    'USERPROFILE' => 'C:\\Users\\Игорь'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'C:\\xampp\\htdocs\\newbitrix.local\\advanced\\'
+    'PHP_SELF' => 'C:\\xampp\\htdocs\\newbitrix.local\\advanced\\yii'
+    'SCRIPT_NAME' => 'C:\\xampp\\htdocs\\newbitrix.local\\advanced\\yii'
+    'SCRIPT_FILENAME' => 'C:\\xampp\\htdocs\\newbitrix.local\\advanced\\yii'
+    'PATH_TRANSLATED' => 'C:\\xampp\\htdocs\\newbitrix.local\\advanced\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1510752243.7866
+    'REQUEST_TIME' => 1510752243
+    'argv' => [
+        0 => 'C:\\xampp\\htdocs\\newbitrix.local\\advanced\\yii'
+        1 => 'migrate'
+    ]
+    'argc' => 2
+]
+2017-11-22 09:08:03 [-][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Trying to get property of non-object in C:\xampp\htdocs\newbitrix.local\advanced\vendor\bupy7\yii2-pages\migrations\m150429_155009_create_page_table.php:18
+Stack trace:
+#0 C:\xampp\htdocs\newbitrix.local\advanced\vendor\bupy7\yii2-pages\migrations\m150429_155009_create_page_table.php(18): yii\base\ErrorHandler->handleError(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\base\BaseObject.php(108): m150429_155009_create_page_table->init()
+#2 [internal function]: yii\base\BaseObject->__construct(Array)
+#3 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\di\Container.php(381): ReflectionClass->newInstanceArgs(Array)
+#4 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('m150429_155009_...', Array, Array)
+#5 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\BaseYii.php(349): yii\di\Container->get('m150429_155009_...', Array, Array)
+#6 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\console\controllers\MigrateController.php(196): yii\BaseYii::createObject(Array)
+#7 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(725): yii\console\controllers\MigrateController->createMigration('m150429_155009_...')
+#8 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(200): yii\console\controllers\BaseMigrateController->migrateUp('m150429_155009_...')
+#9 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#10 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#11 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#12 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\console\Controller.php(135): yii\base\Controller->runAction('up', Array)
+#13 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('up', Array)
+#14 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate/up', Array)
+#15 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate/up', Array)
+#16 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#17 C:\xampp\htdocs\newbitrix.local\advanced\yii(27): yii\base\Application->run()
+#18 {main}
+2017-11-22 09:07:55 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Игорь\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'HOME-PC'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'CYGWIN' => 'tty'
+    'ESET_OPTIONS' => '                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               '
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Игорь'
+    'LOCALAPPDATA' => 'C:\\Users\\Игорь\\AppData\\Local'
+    'LOGONSERVER' => '\\\\HOME-PC'
+    'NUMBER_OF_PROCESSORS' => '8'
+    'OneDrive' => 'C:\\Users\\Игорь\\OneDrive'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\OpenSSH\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files\\PuTTY\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\xampp\\php;C:\\composer;C:\\Program Files (x86)\\nodejs\\;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\Program Files (x86)\\Common Files\\Ulead Systems\\MPEG;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\Users\\Игорь\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Игорь\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Игорь\\AppData\\Roaming\\npm'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\D395~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\D395~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'HOME-PC'
+    'USERDOMAIN_ROAMINGPROFILE' => 'HOME-PC'
+    'USERNAME' => 'Игорь'
+    'USERPROFILE' => 'C:\\Users\\Игорь'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'C:\\xampp\\htdocs\\newbitrix.local\\advanced\\'
+    'PHP_SELF' => 'C:\\xampp\\htdocs\\newbitrix.local\\advanced\\yii'
+    'SCRIPT_NAME' => 'C:\\xampp\\htdocs\\newbitrix.local\\advanced\\yii'
+    'SCRIPT_FILENAME' => 'C:\\xampp\\htdocs\\newbitrix.local\\advanced\\yii'
+    'PATH_TRANSLATED' => 'C:\\xampp\\htdocs\\newbitrix.local\\advanced\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1511338075.6378
+    'REQUEST_TIME' => 1511338075
+    'argv' => [
+        0 => 'C:\\xampp\\htdocs\\newbitrix.local\\advanced\\yii'
+        1 => 'migrate/up'
+        2 => '--migrationPath=@bupy7/pages/migrations'
+    ]
+    'argc' => 3
+]
+2017-11-22 09:22:49 [-][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Trying to get property of non-object in C:\xampp\htdocs\newbitrix.local\advanced\vendor\bupy7\yii2-pages\migrations\m150429_155009_create_page_table.php:18
+Stack trace:
+#0 C:\xampp\htdocs\newbitrix.local\advanced\vendor\bupy7\yii2-pages\migrations\m150429_155009_create_page_table.php(18): yii\base\ErrorHandler->handleError(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\base\BaseObject.php(108): m150429_155009_create_page_table->init()
+#2 [internal function]: yii\base\BaseObject->__construct(Array)
+#3 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\di\Container.php(381): ReflectionClass->newInstanceArgs(Array)
+#4 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('m150429_155009_...', Array, Array)
+#5 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\BaseYii.php(349): yii\di\Container->get('m150429_155009_...', Array, Array)
+#6 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\console\controllers\MigrateController.php(196): yii\BaseYii::createObject(Array)
+#7 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(725): yii\console\controllers\MigrateController->createMigration('m150429_155009_...')
+#8 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(200): yii\console\controllers\BaseMigrateController->migrateUp('m150429_155009_...')
+#9 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#10 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#11 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#12 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\console\Controller.php(135): yii\base\Controller->runAction('up', Array)
+#13 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('up', Array)
+#14 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate/up', Array)
+#15 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate/up', Array)
+#16 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#17 C:\xampp\htdocs\newbitrix.local\advanced\yii(27): yii\base\Application->run()
+#18 {main}
+2017-11-22 09:22:43 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Игорь\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'HOME-PC'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'CYGWIN' => 'tty'
+    'ESET_OPTIONS' => '                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               '
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Игорь'
+    'LOCALAPPDATA' => 'C:\\Users\\Игорь\\AppData\\Local'
+    'LOGONSERVER' => '\\\\HOME-PC'
+    'NUMBER_OF_PROCESSORS' => '8'
+    'OneDrive' => 'C:\\Users\\Игорь\\OneDrive'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\OpenSSH\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files\\PuTTY\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\xampp\\php;C:\\composer;C:\\Program Files (x86)\\nodejs\\;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\Program Files (x86)\\Common Files\\Ulead Systems\\MPEG;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\Users\\Игорь\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Игорь\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Игорь\\AppData\\Roaming\\npm'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\D395~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\D395~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'HOME-PC'
+    'USERDOMAIN_ROAMINGPROFILE' => 'HOME-PC'
+    'USERNAME' => 'Игорь'
+    'USERPROFILE' => 'C:\\Users\\Игорь'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'C:\\xampp\\htdocs\\newbitrix.local\\advanced\\'
+    'PHP_SELF' => 'C:\\xampp\\htdocs\\newbitrix.local\\advanced\\yii'
+    'SCRIPT_NAME' => 'C:\\xampp\\htdocs\\newbitrix.local\\advanced\\yii'
+    'SCRIPT_FILENAME' => 'C:\\xampp\\htdocs\\newbitrix.local\\advanced\\yii'
+    'PATH_TRANSLATED' => 'C:\\xampp\\htdocs\\newbitrix.local\\advanced\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1511338963.4839
+    'REQUEST_TIME' => 1511338963
+    'argv' => [
+        0 => 'C:\\xampp\\htdocs\\newbitrix.local\\advanced\\yii'
+        1 => 'migrate/up'
+        2 => '--migrationPath=@bupy7/pages/migrations'
+    ]
+    'argc' => 3
+]
+2017-11-22 09:23:30 [-][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Trying to get property of non-object in C:\xampp\htdocs\newbitrix.local\advanced\vendor\bupy7\yii2-pages\migrations\m150429_155009_create_page_table.php:18
+Stack trace:
+#0 C:\xampp\htdocs\newbitrix.local\advanced\vendor\bupy7\yii2-pages\migrations\m150429_155009_create_page_table.php(18): yii\base\ErrorHandler->handleError(8, 'Trying to get p...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\base\BaseObject.php(108): m150429_155009_create_page_table->init()
+#2 [internal function]: yii\base\BaseObject->__construct(Array)
+#3 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\di\Container.php(381): ReflectionClass->newInstanceArgs(Array)
+#4 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('m150429_155009_...', Array, Array)
+#5 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\BaseYii.php(349): yii\di\Container->get('m150429_155009_...', Array, Array)
+#6 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\console\controllers\MigrateController.php(196): yii\BaseYii::createObject(Array)
+#7 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(725): yii\console\controllers\MigrateController->createMigration('m150429_155009_...')
+#8 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(200): yii\console\controllers\BaseMigrateController->migrateUp('m150429_155009_...')
+#9 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#10 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#11 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#12 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\console\Controller.php(135): yii\base\Controller->runAction('up', Array)
+#13 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('up', Array)
+#14 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate/up', Array)
+#15 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate/up', Array)
+#16 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#17 C:\xampp\htdocs\newbitrix.local\advanced\yii(27): yii\base\Application->run()
+#18 {main}
+2017-11-22 09:23:28 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Игорь\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'HOME-PC'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'CYGWIN' => 'tty'
+    'ESET_OPTIONS' => '                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               '
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Игорь'
+    'LOCALAPPDATA' => 'C:\\Users\\Игорь\\AppData\\Local'
+    'LOGONSERVER' => '\\\\HOME-PC'
+    'NUMBER_OF_PROCESSORS' => '8'
+    'OneDrive' => 'C:\\Users\\Игорь\\OneDrive'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\OpenSSH\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files\\PuTTY\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\xampp\\php;C:\\composer;C:\\Program Files (x86)\\nodejs\\;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\Program Files (x86)\\Common Files\\Ulead Systems\\MPEG;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\Users\\Игорь\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Игорь\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Игорь\\AppData\\Roaming\\npm'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\D395~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\D395~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'HOME-PC'
+    'USERDOMAIN_ROAMINGPROFILE' => 'HOME-PC'
+    'USERNAME' => 'Игорь'
+    'USERPROFILE' => 'C:\\Users\\Игорь'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'C:\\xampp\\htdocs\\newbitrix.local\\advanced\\'
+    'PHP_SELF' => 'C:\\xampp\\htdocs\\newbitrix.local\\advanced\\yii'
+    'SCRIPT_NAME' => 'C:\\xampp\\htdocs\\newbitrix.local\\advanced\\yii'
+    'SCRIPT_FILENAME' => 'C:\\xampp\\htdocs\\newbitrix.local\\advanced\\yii'
+    'PATH_TRANSLATED' => 'C:\\xampp\\htdocs\\newbitrix.local\\advanced\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1511339008.6753
+    'REQUEST_TIME' => 1511339008
+    'argv' => [
+        0 => 'C:\\xampp\\htdocs\\newbitrix.local\\advanced\\yii'
+        1 => 'migrate/up'
+        2 => '--migrationPath=@bupy7/pages/migrations'
+    ]
+    'argc' => 3
+]
+2017-11-22 09:26:51 [-][-][-][error][ParseError] ParseError: syntax error, unexpected ''pages'' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in C:\xampp\htdocs\newbitrix.local\advanced\vendor\bupy7\yii2-pages\migrations\m150429_155009_create_page_table.php:18
+Stack trace:
+#0 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\console\controllers\MigrateController.php(191): yii\console\controllers\BaseMigrateController->includeMigrationFile('m150429_155009_...')
+#1 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(725): yii\console\controllers\MigrateController->createMigration('m150429_155009_...')
+#2 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(200): yii\console\controllers\BaseMigrateController->migrateUp('m150429_155009_...')
+#3 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#4 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#5 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\console\Controller.php(135): yii\base\Controller->runAction('up', Array)
+#7 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('up', Array)
+#8 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate/up', Array)
+#9 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate/up', Array)
+#10 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#11 C:\xampp\htdocs\newbitrix.local\advanced\yii(27): yii\base\Application->run()
+#12 {main}
+2017-11-22 09:26:50 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Игорь\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'HOME-PC'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'CYGWIN' => 'tty'
+    'ESET_OPTIONS' => '                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               '
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Игорь'
+    'LOCALAPPDATA' => 'C:\\Users\\Игорь\\AppData\\Local'
+    'LOGONSERVER' => '\\\\HOME-PC'
+    'NUMBER_OF_PROCESSORS' => '8'
+    'OneDrive' => 'C:\\Users\\Игорь\\OneDrive'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\OpenSSH\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files\\PuTTY\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\xampp\\php;C:\\composer;C:\\Program Files (x86)\\nodejs\\;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\Program Files (x86)\\Common Files\\Ulead Systems\\MPEG;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\Users\\Игорь\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Игорь\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Игорь\\AppData\\Roaming\\npm'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\D395~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\D395~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'HOME-PC'
+    'USERDOMAIN_ROAMINGPROFILE' => 'HOME-PC'
+    'USERNAME' => 'Игорь'
+    'USERPROFILE' => 'C:\\Users\\Игорь'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'C:\\xampp\\htdocs\\newbitrix.local\\advanced\\'
+    'PHP_SELF' => 'C:\\xampp\\htdocs\\newbitrix.local\\advanced\\yii'
+    'SCRIPT_NAME' => 'C:\\xampp\\htdocs\\newbitrix.local\\advanced\\yii'
+    'SCRIPT_FILENAME' => 'C:\\xampp\\htdocs\\newbitrix.local\\advanced\\yii'
+    'PATH_TRANSLATED' => 'C:\\xampp\\htdocs\\newbitrix.local\\advanced\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1511339210.1128
+    'REQUEST_TIME' => 1511339210
+    'argv' => [
+        0 => 'C:\\xampp\\htdocs\\newbitrix.local\\advanced\\yii'
+        1 => 'migrate/up'
+        2 => '--migrationPath=@bupy7/pages/migrations'
+    ]
+    'argc' => 3
+]
+2017-11-22 09:27:38 [-][-][-][error][yii\base\ErrorException:8] yii\base\ErrorException: Undefined variable: model in C:\xampp\htdocs\newbitrix.local\advanced\vendor\bupy7\yii2-pages\migrations\m150429_155009_create_page_table.php:18
+Stack trace:
+#0 C:\xampp\htdocs\newbitrix.local\advanced\vendor\bupy7\yii2-pages\migrations\m150429_155009_create_page_table.php(18): yii\base\ErrorHandler->handleError(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 18, Array)
+#1 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\base\BaseObject.php(108): m150429_155009_create_page_table->init()
+#2 [internal function]: yii\base\BaseObject->__construct(Array)
+#3 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\di\Container.php(381): ReflectionClass->newInstanceArgs(Array)
+#4 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\di\Container.php(156): yii\di\Container->build('m150429_155009_...', Array, Array)
+#5 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\BaseYii.php(349): yii\di\Container->get('m150429_155009_...', Array, Array)
+#6 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\console\controllers\MigrateController.php(196): yii\BaseYii::createObject(Array)
+#7 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(725): yii\console\controllers\MigrateController->createMigration('m150429_155009_...')
+#8 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(200): yii\console\controllers\BaseMigrateController->migrateUp('m150429_155009_...')
+#9 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#10 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#11 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#12 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\console\Controller.php(135): yii\base\Controller->runAction('up', Array)
+#13 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('up', Array)
+#14 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate/up', Array)
+#15 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate/up', Array)
+#16 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#17 C:\xampp\htdocs\newbitrix.local\advanced\yii(27): yii\base\Application->run()
+#18 {main}
+2017-11-22 09:27:37 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Игорь\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'HOME-PC'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'CYGWIN' => 'tty'
+    'ESET_OPTIONS' => '                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               '
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Игорь'
+    'LOCALAPPDATA' => 'C:\\Users\\Игорь\\AppData\\Local'
+    'LOGONSERVER' => '\\\\HOME-PC'
+    'NUMBER_OF_PROCESSORS' => '8'
+    'OneDrive' => 'C:\\Users\\Игорь\\OneDrive'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\OpenSSH\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files\\PuTTY\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\xampp\\php;C:\\composer;C:\\Program Files (x86)\\nodejs\\;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\Program Files (x86)\\Common Files\\Ulead Systems\\MPEG;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\Users\\Игорь\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Игорь\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Игорь\\AppData\\Roaming\\npm'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\D395~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\D395~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'HOME-PC'
+    'USERDOMAIN_ROAMINGPROFILE' => 'HOME-PC'
+    'USERNAME' => 'Игорь'
+    'USERPROFILE' => 'C:\\Users\\Игорь'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'C:\\xampp\\htdocs\\newbitrix.local\\advanced\\'
+    'PHP_SELF' => 'C:\\xampp\\htdocs\\newbitrix.local\\advanced\\yii'
+    'SCRIPT_NAME' => 'C:\\xampp\\htdocs\\newbitrix.local\\advanced\\yii'
+    'SCRIPT_FILENAME' => 'C:\\xampp\\htdocs\\newbitrix.local\\advanced\\yii'
+    'PATH_TRANSLATED' => 'C:\\xampp\\htdocs\\newbitrix.local\\advanced\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1511339257.1081
+    'REQUEST_TIME' => 1511339257
+    'argv' => [
+        0 => 'C:\\xampp\\htdocs\\newbitrix.local\\advanced\\yii'
+        1 => 'migrate/up'
+        2 => '--migrationPath=@bupy7/pages/migrations'
+    ]
+    'argc' => 3
+]
+2017-11-22 09:29:48 [-][-][-][error][yii\db\Exception] PDOException: SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'pages' already exists in C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\db\Command.php:994
+Stack trace:
+#0 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\db\Command.php(994): PDOStatement->execute()
+#1 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\db\Migration.php(300): yii\db\Command->execute()
+#2 C:\xampp\htdocs\newbitrix.local\advanced\vendor\bupy7\yii2-pages\migrations\m150429_155009_create_page_table.php(26): yii\db\Migration->createTable('{{%pages}}', Array)
+#3 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(726): m150429_155009_create_page_table->up()
+#4 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(200): yii\console\controllers\BaseMigrateController->migrateUp('m150429_155009_...')
+#5 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#6 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#7 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\console\Controller.php(135): yii\base\Controller->runAction('up', Array)
+#9 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('up', Array)
+#10 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate/up', Array)
+#11 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate/up', Array)
+#12 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#13 C:\xampp\htdocs\newbitrix.local\advanced\yii(27): yii\base\Application->run()
+#14 {main}
+
+Next yii\db\Exception: SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'pages' already exists
+The SQL being executed was: CREATE TABLE `pages` (
+	`id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	`title` varchar(255) NOT NULL,
+	`alias` varchar(255) NOT NULL,
+	`published` tinyint(1) DEFAULT 1,
+	`content` text,
+	`title_browser` varchar(255),
+	`meta_keywords` varchar(200),
+	`meta_description` varchar(160),
+	`created_at` timestamp NOT NULL DEFAULT "0000-00-00 00:00:00",
+	`updated_at` timestamp NOT NULL DEFAULT "0000-00-00 00:00:00"
+) in C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\db\Schema.php:595
+Stack trace:
+#0 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\db\Command.php(1004): yii\db\Schema->convertException(Object(PDOException), 'CREATE TABLE `p...')
+#1 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\db\Migration.php(300): yii\db\Command->execute()
+#2 C:\xampp\htdocs\newbitrix.local\advanced\vendor\bupy7\yii2-pages\migrations\m150429_155009_create_page_table.php(26): yii\db\Migration->createTable('{{%pages}}', Array)
+#3 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(726): m150429_155009_create_page_table->up()
+#4 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(200): yii\console\controllers\BaseMigrateController->migrateUp('m150429_155009_...')
+#5 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#6 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#7 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\console\Controller.php(135): yii\base\Controller->runAction('up', Array)
+#9 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('up', Array)
+#10 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate/up', Array)
+#11 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate/up', Array)
+#12 C:\xampp\htdocs\newbitrix.local\advanced\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#13 C:\xampp\htdocs\newbitrix.local\advanced\yii(27): yii\base\Application->run()
+#14 {main}
+Additional Information:
+Array
+(
+    [0] => 42S01
+    [1] => 1050
+    [2] => Table 'pages' already exists
+)
+
+2017-11-22 09:29:46 [-][-][-][info][application] $_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'APPDATA' => 'C:\\Users\\Игорь\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'HOME-PC'
+    'ComSpec' => 'C:\\WINDOWS\\system32\\cmd.exe'
+    'CYGWIN' => 'tty'
+    'ESET_OPTIONS' => '                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               '
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOMEDRIVE' => 'C:'
+    'HOMEPATH' => '\\Users\\Игорь'
+    'LOCALAPPDATA' => 'C:\\Users\\Игорь\\AppData\\Local'
+    'LOGONSERVER' => '\\\\HOME-PC'
+    'NUMBER_OF_PROCESSORS' => '8'
+    'OneDrive' => 'C:\\Users\\Игорь\\OneDrive'
+    'OS' => 'Windows_NT'
+    'Path' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\OpenSSH\\bin;C:\\Program Files (x86)\\Skype\\Phone\\;C:\\Program Files\\PuTTY\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\xampp\\php;C:\\composer;C:\\Program Files (x86)\\nodejs\\;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Windows Live\\Shared;C:\\Program Files (x86)\\Common Files\\Ulead Systems\\MPEG;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Git\\cmd;C:\\Users\\Игорь\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Игорь\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Users\\Игорь\\AppData\\Roaming\\npm'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHP_COMMAND' => 'php.exe'
+    'PROCESSOR_ARCHITECTURE' => 'x86'
+    'PROCESSOR_ARCHITEW6432' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 60 Stepping 3, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3c03'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files (x86)'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$P$G'
+    'PSModulePath' => 'C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\WINDOWS'
+    'TEMP' => 'C:\\Users\\D395~1\\AppData\\Local\\Temp'
+    'TMP' => 'C:\\Users\\D395~1\\AppData\\Local\\Temp'
+    'USERDOMAIN' => 'HOME-PC'
+    'USERDOMAIN_ROAMINGPROFILE' => 'HOME-PC'
+    'USERNAME' => 'Игорь'
+    'USERPROFILE' => 'C:\\Users\\Игорь'
+    'windir' => 'C:\\WINDOWS'
+    'YII_PATH' => 'C:\\xampp\\htdocs\\newbitrix.local\\advanced\\'
+    'PHP_SELF' => 'C:\\xampp\\htdocs\\newbitrix.local\\advanced\\yii'
+    'SCRIPT_NAME' => 'C:\\xampp\\htdocs\\newbitrix.local\\advanced\\yii'
+    'SCRIPT_FILENAME' => 'C:\\xampp\\htdocs\\newbitrix.local\\advanced\\yii'
+    'PATH_TRANSLATED' => 'C:\\xampp\\htdocs\\newbitrix.local\\advanced\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1511339386.8395
+    'REQUEST_TIME' => 1511339386
+    'argv' => [
+        0 => 'C:\\xampp\\htdocs\\newbitrix.local\\advanced\\yii'
+        1 => 'migrate/up'
+        2 => '--migrationPath=@bupy7/pages/migrations'
+    ]
+    'argc' => 3
+]
